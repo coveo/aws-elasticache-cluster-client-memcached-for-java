@@ -14,7 +14,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.spy</groupId>
     <artifactId>spymemcached</artifactId>
-    <version>2.999.999-SNAPSHOT</version> <!-- not used -->
+    <version>1.1.0-coveo</version>
 
     <name>Spymemcached</name>
     <description>A client library for memcached.</description>
@@ -85,5 +85,12 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>Coveo</id>
+            <name>Coveo-releases</name>
+            <url>http://maven.corp.coveo.com/artifactory/ext-release-local</url>
+        </repository>
+    </distributionManagement>
 
 </project>
